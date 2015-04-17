@@ -1,0 +1,183 @@
+html
+{
+	height: 100%;
+}
+
+body
+{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	color: rgba(0,0,0,.87);
+}
+
+.column
+{
+	display: flex;	
+	flex-direction: row;
+}
+
+#menu
+{
+	display: flex;
+	flex-direction: column;
+	position: static;
+	z-index: 10;
+	width: 300px;	
+	min-width: 300px;
+	max-width: 300px;
+	overflow-y: auto;
+	box-shadow: 0 8px 17px rgba(0,0,0,.2);
+	background-color: #fff;		
+}
+
+#menu .items
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#menu .items .item
+{ 
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+#menu .items .item button
+{
+	padding-left: 20px;  
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+	background: transparent;  
+	border: none;
+	cursor: pointer;
+	width: 100%;	
+	outline: 0;
+}
+
+#menu .items .item button:hover
+{
+	background-color: #dedede;		
+}
+
+#menu .items .item button:active
+{
+	background-color: #eeeeee;	
+}
+
+#menu .items .item button img
+{
+  display: flex;
+  width: 64px;
+  height: 64px:
+}
+
+#menu .items .item button span
+{
+	padding-left: 20px;	
+	text-transform: uppercase;
+	font-size: 12pt;
+	font-family: Roboto, sans-serif;
+	color: rgba(0, 0, 0, 0.870588);	
+}
+
+#menu .items .item button div
+{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px)
+{
+	#menu
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 10;				
+	}	
+}
+
+@media screen and (min-width: 601px)
+{
+	#close-menu
+	{
+		display: none;
+	}
+}
+
+#menu.hidden
+{
+  display: none;
+}
+
+#menu .toolbar
+{
+	justify-content: space-between;
+}
+
+.toolbar
+{	
+	display: flex;	
+	align-items: center;
+	background-color: rgb(96,125,139);
+	color: rgb(255,255,255);
+	font-size: 1.3em;
+	min-height: 64px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);	
+}
+
+.toolbar h1
+{
+	margin: auto;
+	font-size: 1.250em;
+	font-weight: 400;
+}
+
+.toolbar button
+{
+  display: flex;
+  margin: 10px;  
+  background: transparent;  
+  border: none;
+  cursor: pointer;
+}
+
+#content
+{	
+	flex-direction: column;
+	width: 100%;
+}
+
+#View
+{
+	position: relative;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	overflow: auto;
+	flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.logo
+{
+	flex-direction: row;
+	align-items: center;
+	margin-left: 15px;
+}
+
+.logo .text
+{
+	display: flex;
+	text-indent: 15px;
+}
+

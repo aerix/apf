@@ -1,0 +1,28 @@
+<link href="css/button.css" rel="stylesheet" type="text/css"/>
+<link href="css/editor.css?v=1" rel="stylesheet" type="text/css"/>
+
+<div class="section">
+  <label>Name</label>
+  <input type="text" id="name"/>
+</div>
+
+<div class="section">
+  <label>Description</label>
+  <textarea id="description" rows="5"></textarea>
+</div>
+
+<div class="section">
+  <label>Group</label>
+  <select id="groups">
+  </select>
+</div>
+
+<div class="buttons">
+  <button onclick="exec('expenses/types/insert/save.js?v=3')">
+	Save
+  </button>
+</div>
+
+<script>
+exec("expenses/types/insert/groups.js");
+</script>

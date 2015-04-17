@@ -1,0 +1,53 @@
+<link href="css/editor.css" rel="stylesheet" type="text/css" />
+<link href="css/table.css?v=1" rel="stylesheet" type="text/css" />
+<link href="css/button.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript">
+setTitle("Expenses By Day");
+exec("expenses/day/index.js?v=3");
+</script>
+<h1 id="day"></h1>
+<table id="table" class="table" width="100%" border="0" cellspacing="0" cellpadding="5">
+  <thead>
+	<tr>
+	  <td>
+		Time
+	  </td>
+	  <td>
+		Type
+	  </td>
+	  <td>
+		Description
+	  </td>
+	  <td>
+		Amount
+	  </td>
+	  <td width="50">
+	  </td>
+	</tr>
+  </thead>
+  <tbody>
+  </tbody>
+  <tfoot>
+	<tr>
+	  <td>
+		<span id="rowsCount"></span>
+	  </td>
+	  <td>
+	  </td>
+	  <td>
+	  </td>
+	  <td>
+		<span id="expenses_amount_total"></span>
+	  </td>
+	  <td>
+	  </td>
+	</tr>
+  </tfoot>
+</table>
+
+<div class="buttons">
+  <button onclick="This.insert()">
+	Insert
+  </button>
+</div>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>APF</title>
+	<link rel="shortcut icon" href="img/icon.png">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+	<link rel="stylesheet" type="text/css" href="css/fonts/roboto.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css?v=2" />
+	<script src="js/view.js" type="text/javascript"></script>
+	<script src="js/title.js" type="text/javascript"></script>
+	<script src="js/exec.js" type="text/javascript"></script>
+	<script src="js/credentials.js" type="text/javascript"></script>
+	<script src="js/db.js" type="text/javascript"></script>
+	<script src="js/call.js" type="text/javascript"></script>
+	<script src="js/load.js" type="text/javascript"></script>
+  </head>
+  <body onload="load('View', '#!start/')">  
+	<div id="menu" class="column">
+	  <div class="toolbar">
+		<div class="logo">
+		  <div class="text">
+			Aerix Personal Finances
+		  </div>		  
+		</div>	
+		<button onclick="menu.toggle()" id="close-menu">
+		  <img src="img/close.png" />
+		</button>
+	  </div>
+	  <div class="items" id="items">
+	  </div>
+	</div>
+	<div id="content" class="column">  
+	  <div class="toolbar">
+		<button onclick="menu.toggle()">		  
+		  <img src="img/menu.png" />
+		</button>
+		<h1 id="title">Aerix</h1>
+		<button id="popup-menu">
+		  <!-- img -->
+		</button>
+	  </div>
+	  <div id="View"></div>
+	</div>
+	<script src="js/menu.js" type="text/javascript"></script>
+  </body>
+</html>

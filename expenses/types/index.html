@@ -1,0 +1,43 @@
+<link href="css/button.css" rel="stylesheet" type="text/css"/>
+<link href="css/table.css" rel="stylesheet" type="text/css"/>
+<script>
+setTitle("Expense Types");
+exec("expenses/types/index.js");
+</script>
+<table class="table" id="table" width="100%" border="0" cellspacing="0" cellpadding="10">
+  <thead>
+	<tr>
+	  <td>
+		Name
+	  </td>
+	  <td>
+		Description
+	  </td>
+	  <td>
+		Group
+	  </td>
+	  <td width="50">
+	  </td>
+	</tr>
+  </thead>
+  <tbody>
+  </tbody>
+  <tfoot>
+	<tr>
+	  <td>
+	  </td>
+	  <td>
+	  </td>
+	  <td>
+	  </td>
+	  <td>
+		<span id="rowsCount">0</span>
+	  </td>
+	</tr>
+  </tfoot>
+</table>
+<div class="buttons">
+  <button onclick="location.href = '#!expenses/types/insert/'">
+	Insert
+  </button>
+</div>

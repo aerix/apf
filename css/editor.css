@@ -1,0 +1,33 @@
+textarea,
+input[type="text"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="number"],
+select
+{
+  background-color: White;
+  border-top: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid rgb(96,125,139);
+  padding: 5px;
+}
+
+.section
+{
+  margin-top: 10px;
+}
+.section label,
+label.caption
+{
+  font-size: 8pt;
+  color: rgb(96,125,139);
+}
+.section textarea,
+.section input[type="text"],
+.section input[type="datetime-local"],
+.section input[type="number"],
+.section select
+{
+  width: 100%;
+}

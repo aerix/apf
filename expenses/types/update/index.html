@@ -1,0 +1,35 @@
+<link href="css/button.css" rel="stylesheet" type="text/css"/>
+<link href="css/editor.css?v=1" rel="stylesheet" type="text/css"/>
+
+<script>
+exec("expenses/types/update/select.js?v=2");
+</script>
+
+<h2 id="expense_type_name">
+</h2>
+
+<div class="section">
+  <label>Name</label>
+  <input type="text" id="name"/>
+</div>
+
+<div class="section">
+  <label>Description</label>
+  <textarea id="description" rows="5"></textarea>
+</div>
+
+<div class="section">
+  <label>Group</label>
+  <select id="groups">
+  </select>
+</div>
+
+<div class="buttons">
+  <button onclick="exec('expenses/types/update/save.js?v=2')">
+	Save
+  </button>
+</div>
+
+<script>
+exec("expenses/types/update/groups.js");
+</script>

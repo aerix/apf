@@ -1,0 +1,11 @@
+.buttons
+{
+  margin-top: 10px;
+}
+.buttons button
+{
+  padding: 12px;
+  border: 1px solid #dedede;
+  background-color: #eeeeee;
+  box-shadow: 0px 2px 4px silver;
+}

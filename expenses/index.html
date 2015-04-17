@@ -1,0 +1,65 @@
+<link href="expenses/css/period.css?v=1" rel="stylesheet" type="text/css" />
+<link href="css/editor.css" rel="stylesheet" type="text/css" />
+<link href="css/table.css?v=2" rel="stylesheet" type="text/css" />
+<link href="css/button.css" rel="stylesheet" type="text/css"/>
+
+<script type="javascript">
+setTitle("Expenses");
+exec("expenses/index.js?v=2");
+</script>
+
+<div id="period">
+
+  <div class="date">
+	<label class="caption">Start</label>
+	<input type="date" id="periodStart"/>
+  </div>
+
+  <div class="separator">
+	-
+  </div>
+
+  <div class="date">
+	<label class="caption">
+	  End
+	</label>
+	<input type="date" id="periodEnd" />
+  </div>
+
+</div>
+
+<table id="table" class="table" width="100%" border="0" cellspacing="0" cellpadding="5">
+  <thead>
+	<tr>
+	  <td>
+		Day
+	  </td>
+	  <td>
+		Weekday
+	  </td>
+	  <td>
+		Amount
+	  </td>
+	</tr>
+  </thead>
+  <tbody>
+  </tbody>
+  <tfoot>
+	<tr>
+	  <td>
+		<span id="rowsCount"></span>
+	  </td>
+	  <td>
+	  </td>
+	  <td>
+		<span id="amountTotal"></span>
+	  </td>
+	</tr>
+  </tfoot>
+</table>
+
+<div class="buttons">
+  <button onclick="This.insert()">
+	Insert Day
+  </button>
+</div>
