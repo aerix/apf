@@ -48,14 +48,15 @@ Menu.prototype.render = function(elementId)
 	{
 		itemsHtml.push("<div class='item'>");
 		itemsHtml.push("<button onclick='menu.choice(" + i + ")';>");
+		
 		itemsHtml.push("<div>");
-		
 		itemsHtml.push("<img src='%' />".replace("%", this.items[i].icon));
-		
 		itemsHtml.push("</div>");
+		
 		itemsHtml.push("<div>");
 		itemsHtml.push("<span>" + this.items[i].name + "</span>");
 		itemsHtml.push("</div>");
+		
 		itemsHtml.push("</button>");
 		itemsHtml.push("</div>");		
 	}
