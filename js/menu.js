@@ -82,6 +82,11 @@ menu.items.push(new Item("Profit types", "#!page2/", ""));
 menu.items.push(new Item("Tables", "#!tables/", ""));
 menu.items.push(new Item("Excel", "#!excel/", ""));
 menu.items.push(new Item("User", "/", "img/menu/vector_65_01-64.png"));
+menu.items.push(new Item("About", "#!about/", "img/menu/10.png"));
+/*
+ Template:
+ menu.items.push(new Item("<name>", "<url>", "img/menu/<img>.png"));
+ */
 
 menu.render("items");
 

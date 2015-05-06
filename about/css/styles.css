@@ -1,0 +1,23 @@
+#author
+{
+  font-size: 14pt;
+  margin-bottom: 10px;
+}
+
+#photo
+{
+  border-radius: 48px;
+  width: 96px;
+  height: 96px;
+  box-shadow: 1px 3px 2px #cecece;
+}
+
+#bas
+{
+  width: 100%;
+}
+
+.panel
+{
+  text-align: center;
+}
