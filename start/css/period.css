@@ -1,0 +1,18 @@
+#period
+{
+  margin: 15px;
+}
+
+#period .date,
+#period .separator
+{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#period .separator
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}

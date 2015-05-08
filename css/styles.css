@@ -129,8 +129,8 @@ body
 	background-color: rgb(96,125,139);
 	color: rgb(255,255,255);
 	font-size: 1.3em;
-	min-height: 64px;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);	
+	min-height: 48px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);	
 }
 
 .toolbar h1
