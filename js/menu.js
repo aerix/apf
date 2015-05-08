@@ -76,11 +76,11 @@ if (document.body.clientWidth <= 600)
 
 menu.items.push(new Item("Start", "#!start/", "img/menu/vector_65_03-64.png"));
 menu.items.push(new Item("Expenses", "#!expenses/", "img/menu/vector_65_04-64.png"));
-menu.items.push(new Item("Expense types", "#!expenses/types/", ""));
+menu.items.push(new Item("Expense types", "#!expenses/types/", "img/menu/submenu.png"));
 menu.items.push(new Item("Profits", "#!page1/", "img/menu/vector_65_05-64.png"));
-menu.items.push(new Item("Profit types", "#!page2/", ""));
-menu.items.push(new Item("Tables", "#!tables/", ""));
-menu.items.push(new Item("Excel", "#!excel/", ""));
+menu.items.push(new Item("Profit types", "#!page2/", "img/menu/submenu.png"));
+menu.items.push(new Item("Tables", "#!tables/", "img/menu/bank.png"));
+menu.items.push(new Item("Excel", "#!excel/", "img/menu/calculator.png"));
 menu.items.push(new Item("User", "/", "img/menu/vector_65_01-64.png"));
 menu.items.push(new Item("About", "#!about/", "img/menu/10.png"));
 /*
