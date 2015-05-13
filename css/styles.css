@@ -144,7 +144,7 @@ body
 .toolbar button
 {
   display: flex;
-  margin: 10px;  
+  
   background: transparent;  
   border: none;
   cursor: pointer;
