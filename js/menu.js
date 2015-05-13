@@ -74,15 +74,15 @@ if (document.body.clientWidth <= 600)
 	element.className += " hidden";
 }
 
-menu.items.push(new Item("Start", "#!start/", "img/menu/vector_65_03-64.png"));
-menu.items.push(new Item("Expenses", "#!expenses/", "img/menu/vector_65_04-64.png"));
-menu.items.push(new Item("Expense types", "#!expenses/types/", "img/menu/submenu.png"));
-menu.items.push(new Item("Profits", "#!page1/", "img/menu/vector_65_05-64.png"));
-menu.items.push(new Item("Profit types", "#!page2/", "img/menu/submenu.png"));
-menu.items.push(new Item("Tables", "#!tables/", "img/menu/bank.png"));
-menu.items.push(new Item("Excel", "#!excel/", "img/menu/calculator.png"));
-menu.items.push(new Item("User", "/", "img/menu/vector_65_01-64.png"));
-menu.items.push(new Item("About", "#!about/", "img/menu/10.png"));
+menu.items.push(new Item("Start", "#!start/", "img/menu/5.png"));
+menu.items.push(new Item("Expenses", "#!expenses/", "img/menu/7.png"));
+menu.items.push(new Item("Expense types", "#!expenses/types/", "img/menu/8.png"));
+menu.items.push(new Item("Profits", "#!page1/", "img/menu/3.png"));
+menu.items.push(new Item("Profit types", "#!page2/", "img/menu/4.png"));
+menu.items.push(new Item("Tables", "#!tables/", "img/menu/6.png"));
+menu.items.push(new Item("Excel", "#!excel/", "img/menu/2.png"));
+menu.items.push(new Item("User", "/", "img/menu/9.png"));
+menu.items.push(new Item("About", "#!about/", "img/menu/1.png"));
 /*
  Template:
  menu.items.push(new Item("<name>", "<url>", "img/menu/<img>.png"));
