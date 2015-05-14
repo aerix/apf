@@ -38,6 +38,7 @@ body
 {
   margin-top: 15px;
   margin-bottom: 15px;
+  overflow: scroll;
 }
 
 #menu .items .item
