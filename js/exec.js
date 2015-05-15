@@ -1,4 +1,4 @@
-function exec(src)
+function exec(src, completeCallbackFunction)
 {
 	var scr = new XMLHttpRequest();
 	scr.open("GET", src);
@@ -9,6 +9,10 @@ function exec(src)
 			if (scr.status == 200)
 			{
 				eval(scr.responseText);		
+				if (typeof(completeCallbackFunction) != "undefined")
+				{
+					completeCallbackFunction();
+				}
 			}
 		}
 	};
