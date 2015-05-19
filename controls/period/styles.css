@@ -1,6 +1,12 @@
+#periodPanel
+{
+  text-align: center;
+}
+
 #period
 {
   margin: 15px;
+  display: inline-block;
 }
 
 #period .date,

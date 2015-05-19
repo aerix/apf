@@ -1,4 +1,4 @@
-<link href="expenses/css/period.css?v=1" rel="stylesheet" type="text/css" />
+<link href="controls/period/styles.css?v=2" rel="stylesheet" type="text/css" />
 <link href="css/editor.css" rel="stylesheet" type="text/css" />
 <link href="css/table.css?v=2" rel="stylesheet" type="text/css" />
 <link href="css/button.css" rel="stylesheet" type="text/css"/>
@@ -9,19 +9,21 @@ exec("expenses/index.js?v=3");
 </script>
 
 <!-- <Period> -->
-<div id="period">
-  <div class="date">
-	<label class="caption">Start</label>
-	<input type="date" id="periodStart"/>
-  </div>
-  <div class="separator">
-	-
-  </div>
-  <div class="date">
-	<label class="caption">
-	  End
-	</label>
-	<input type="date" id="periodEnd" />
+<div id="periodPanel">
+  <div id="period">
+	<div class="date">
+	  <label class="caption">Start</label>
+	  <input type="date" id="periodStart"/>
+	</div>
+	<div class="separator">
+	  -
+	</div>
+	<div class="date">
+	  <label class="caption">
+		End
+	  </label>
+	  <input type="date" id="periodEnd" />
+	</div>
   </div>
 </div>
 <!-- </Period> -->

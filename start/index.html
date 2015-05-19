@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="start/css/dashboard.css" />
-<link rel="stylesheet" type="text/css" href="start/css/period.css" />
+<link href="controls/period/styles.css?v=2" rel="stylesheet" type="text/css" />
 <link href="css/editor.css" rel="stylesheet" type="text/css" />
 
 <script>
@@ -7,21 +7,25 @@ setTitle("Start");
 exec("start/js/index.js?v=1");
 </script>
 
-<div id="period">
-  <div class="date">
-	<label class="caption">Start</label>
-	<input type="date" id="periodStart"/>
-  </div>
-  <div class="separator">
-	-
-  </div>
-  <div class="date">
-	<label class="caption">
-	  End
-	</label>
-	<input type="date" id="periodEnd" />
+<!-- <Period> -->
+<div id="periodPanel">
+  <div id="period">
+	<div class="date">
+	  <label class="caption">Start</label>
+	  <input type="date" id="periodStart"/>
+	</div>
+	<div class="separator">
+	  -
+	</div>
+	<div class="date">
+	  <label class="caption">
+		End
+	  </label>
+	  <input type="date" id="periodEnd" />
+	</div>
   </div>
 </div>
+<!-- </Period> -->
 
 <div class="dashboard">
   <div class="items">
