@@ -1,0 +1,21 @@
+html
+{
+	height: 100%;
+}
+
+body
+{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	color: rgba(0,0,0,.87);
+}
+
+.column
+{
+	display: flex;	
+	flex-direction: row;
+}

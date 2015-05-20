@@ -1,0 +1,32 @@
+#menu .toolbar
+{
+	justify-content: space-between;
+}
+
+.toolbar
+{	
+	display: flex;	
+	align-items: center;
+	background-color: rgb(96,125,139);
+	color: rgb(255,255,255);
+	font-size: 1.3em;
+	min-height: 48px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);	
+	border-bottom: 1px solid rgb(86,115,129);
+}
+
+.toolbar h1
+{
+	margin: auto;
+	font-size: 1.250em;
+	font-weight: 400;
+}
+
+.toolbar button
+{
+  display: flex;
+  
+  background: transparent;  
+  border: none;
+  cursor: pointer;
+}
