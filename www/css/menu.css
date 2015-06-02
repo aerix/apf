@@ -14,7 +14,7 @@
 
 #menu .items
 {
-  overflow: scroll;
+  overflow: auto;
 }
 
 #menu .items .item
