@@ -1,4 +1,4 @@
-function load(element, start)
+function init(element, start)
 {
 	view = new View(element);
 	
